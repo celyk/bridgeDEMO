@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Data">
+      <UniqueIdentifier>{7a0e37bc-0ed8-45f1-bbc7-b2c365ecdc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{3d5f0a45-a315-43cf-b2dd-4c45902f3ab0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="RayTracer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Geo.h">
+      <Filter>src\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.vs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="default.fs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="deferred.fs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="bare.fs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="water.fs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="water.vs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="shadowmap.vs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="shadowmap.fs.shader">
+      <Filter>res</Filter>
+    </None>
+    <None Include="skybox.fs.shader">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+</Project>
